@@ -1,0 +1,279 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(95, 32, 32); */
+    width: 100%;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.shop-title {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(95, 32, 32);
+    padding: 0 150px;
+}
+
+.list-menu {
+    display: flex;
+    color: white;
+
+}
+
+.list-menu>li {
+    margin-left: 70px;
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    padding: 150px;
+    justify-content: space-between;
+    background-color: rgb(95, 32, 32);
+    height: 600px;
+
+
+
+}
+
+.left {
+    width: 300px;
+    height: 300px;
+
+
+
+}
+
+.right {
+    width: 300px;
+    height: 300px;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 8px 10px;
+    border: none;
+
+
+}
+
+.bc {
+    font-family: "EB Garamond", serif;
+    font-size: 30px;
+    color: orange;
+}
+
+.btn-order-now {
+    background-color: rgba(255, 166, 0, 0.863);
+    color: rgb(48, 43, 43);
+}
+
+.m-y-d-g-w-o-s-c {
+    color: white;
+}
+
+.W-t-o-c-p {
+    color: white;
+}
+
+.button-contact-us {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.list-menu>li>a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.list-menu>li>a:hover {
+    color: yellow;
+}
+
+.shop-title:hover {
+    cursor: pointer;
+}
+
+.containers {
+    display: flex;
+    padding: 0 150px;
+    justify-content: space-between;
+    background-color: white;
+    height: 850px;
+    align-items: center;
+}
+
+.a-t-c-h {
+
+    text-align: center;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.img-d {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.about-us::after {
+    content: "";
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 50%;
+    background: orange;
+}
+
+/* .container {
+    background-color: white;
+    height: 889px;
+} */
+.splide {
+    width: 100%;
+}
+
+.splide__slide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+
+}
+
+.containertoo {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.idk {
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+}
+
+.section-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.gallery-list {
+    list-style-type: none;
+}
+
+.gallery-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-section {
+    padding: 50px 0 100px;
+}
+
+.gallery-section .gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    width: 57%;
+    justify-content: center;
+}
+
+.gallery-section .gallery-list .gallery-item {
+    width: calc(100% / 3 - 32px);
+    display: flex;
+    justify-content: center;
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 290px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.idktoo {
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+}
+
+#imgview {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.imageorimg {
+    width: 800px;
+
+}
+
+.overlay {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 97;
+    display: none;
+    opacity: 66%;
+    filter: blur(40px);
+}
+
+#icons-clear {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.material-icons:hover {
+    cursor: pointer;
+}
+
+.material-icons {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contact-me {
+
+}
