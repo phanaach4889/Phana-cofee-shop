@@ -263,6 +263,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    background-color: #FCF8F8;
 }
 
 .material-icons:hover {
